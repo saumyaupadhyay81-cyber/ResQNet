@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ResQNet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<header>
+    <h1>ResQNet</h1>
+    <p>Disaster Management and Emergency Response</p>
+</header>
+
+<nav>
+    <a href="#alerts">Alerts</a>
+    <a href="#shelters">Shelters</a>
+    <a href="#map">Map</a>
+    <a href="#sos">SOS</a>
+</nav>
+
+<section id="alerts">
+    <h2>Disaster Alerts</h2>
+
+    <div class="alert">
+        <b>Heavy Rain Alert</b>
+        <p>Location: Cuttack</p>
+    </div>
+
+    <div class="alert">
+        <b>Flood Warning</b>
+        <p>Location: Bhubaneswar</p>
+    </div>
+
+    <div class="alert">
+        <b>Cyclone Alert</b>
+        <p>Location: Coastal Odisha</p>
+    </div>
+</section>
+
+<section id="shelters">
+    <h2>Nearby Shelters</h2>
+
+    <div class="shelter">
+        <b>City Community Hall</b>
+        <p>Location: Cuttack</p>
+    </div>
+
+    <div class="shelter">
+        <b>Government School</b>
+        <p>Location: Bhubaneswar</p>
+    </div>
+
+    <div class="shelter">
+        <b>Cyclone Shelter</b>
+        <p>Location: Jagatsinghpur</p>
+    </div>
+</section>
+
+<section id="map">
+    <h2>Disaster Map</h2>
+
+    <div class="map">
+        ⚠️ Affected Area
+        <br><br>
+        🏠 Shelter
+        <br><br>
+        📍 Emergency Location
+    </div>
+</section>
+
+<section id="sos">
+    <h2>Emergency SOS</h2>
+
+    <form id="sosForm">
+
+        <label>Name:</label>
+        <input type="text" id="name" required>
+
+        <label>Emergency Type:</label>
+        <input type="text" id="emergency" required>
+
+        <label>Location:</label>
+        <input type="text" id="location" required>
+
+        <label>Details:</label>
+        <textarea id="details"></textarea>
+
+        <button type="submit">Submit SOS</button>
+
+    </form>
+</section>
+
+<section>
+    <h2>Emergency Reports</h2>
+    <div id="reports">
+        <p>No emergency reports yet.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Emergency Contacts</h2>
+    <p>Emergency: <b>112</b></p>
+    <p>Disaster Management: <b>1078</b></p>
+</section>
+
+<footer>
+    <p>ResQNet - Student Prototype</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
